@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><module>
+
+	<!-- Inherit the core Web Toolkit stuff.                  -->
+	<inherits name="com.google.gwt.user.User"/>
+	<inherits name="com.gwtext.GwtExt"/>
+	
+	<!-- Specify the app entry point class.                   -->
+	<entry-point class="com.buaa.project.client.DemoControlPanel"/>
+  
+  	<inherits name="com.google.gwt.user.theme.standard.Standard"/>
+  	
+  	<stylesheet src="DemoControlPanel.css"/>
+  	
+  	<stylesheet src="js/ext/resources/css/ext-all.css"/> 
+  	
+  	<script src="js/ext/adapter/ext/ext-base.js"/>
+  	
+	<script src="js/ext/ext-all.js"/>
+  	
+<servlet class="com.buaa.project.server.DatabaseServiceImpl" path="/databaseservice"/></module>
